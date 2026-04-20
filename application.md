@@ -235,6 +235,7 @@ Sur SPSS, pour obtenir la matrice de dispersion, nous suivons les étapes ci-des
 <br>
 
 En cliquant sur "Dispersion de type matrice" nous pouvons insérer toutes les variables quantitatives
+
 Nous obtenons alors la matrice de dispersion suivantes :
 
 <img width="497" height="396" alt="QTQT_1" src="https://github.com/user-attachments/assets/c4d80bc0-6dfc-4f33-b1ce-efc93bd06f04" />
@@ -251,4 +252,77 @@ Etape 2 : test de la significativité de la relation
 
 Nous pouvons quantifier l’intensité des relations par le coefficient de corrélation de Bravais-Pearson :
 
+<img width="553" height="296" alt="Biv_3" src="https://github.com/user-attachments/assets/3d25cc4d-fb9d-4a55-a836-95e31c021e1a" />
+
+<br>
+
 <img width="541" height="320" alt="QTQT_2" src="https://github.com/user-attachments/assets/5bf16d6f-ded9-4ff2-a82a-d06155ffe72b" />
+
+<br>
+
+- Confirmation de la **forte relation entre LONGUEUR et POIDS** (r = 0,87, corrélation significative p<0,01). 
+- Nous constatons l'existence d'une **faible relation négative entre l’épaisseur et la longueur d’une huître** => plus une huître est fine et plus elle est grande (r = -0,30, corrélation significative p<0,01). 
+- La variable POIDS possède 20 valeurs manquantes alors qu’elle nous apporte une information quasi similaire à 
+LONGUEUR. **Nous allons donc supprimer la variable POIDS de notre modèle**. Ainsi, nous n’effectuerons plus
+d’analyse bivariée sur cette variable. 
+
+b) Croisements de deux variables qualitatives : Test du Khi-deux d’indépendance et Coefficients d’association (Phi et V de Cramer)
+
+Toujours sur SPSS, en suivant la procédure ci-dessous : 
+
+ <img width="553" height="296" alt="Biv_4" src="https://github.com/user-attachments/assets/2850e297-a3de-48e6-9b51-99a97af2417b" />
+
+<br>
+
+<img width="690" height="360" alt="Biv_5" src="https://github.com/user-attachments/assets/c46997b5-f61a-44b7-b370-b4afdc8864d3" />
+
+<br>
+
+En cliquant sur "Statistiques" et en cochant Khi-deux et Phi et V de Cramer, nous obtenons respectivement le test et la force de l’association
+- Le coefficient Phi est pertinent pour les tableaux 2x2 seulement
+- Le coefficient V de Cramer est pertinent pour les tableaux plus grands que 2x2
+
+Si coefficient ~0,10 alors faible association ; si coefficient ~0,30 alors association moyenne ; si coefficient >0,50 
+alors forte association 
+
+<img width="515" height="208" alt="Biv_6" src="https://github.com/user-attachments/assets/2864926d-e1b2-4e9f-a56d-57a9dd23a122" />
+
+<br>
+
+ZONE*VARIETE : Analyse d'une possible relation entre la zone d’élevage et la variété de l’huître
+
+<img width="362" height="290" alt="QLQL_ZV_1" src="https://github.com/user-attachments/assets/b748d3b8-4b6b-457e-97d1-365ce75cd876" />
+
+<br>
+
+Graphiquement, nous ne constatons pas de relation entre la zone d’élevage et la variété de l’huître (Il y a autant 
+d’huîtres de variété A et B dans les différentes zones) => Les deux variables sont à priori indépendantes.
+
+Cette analyse est confirmée par le test de la relation entre ces deux variables (non significatif) :
+
+<img width="356" height="121" alt="QLQL_ZV_2" src="https://github.com/user-attachments/assets/fab54cf2-7047-46c3-8677-5d8f051a1cf6" />
+
+<br>
+
+c) Croisements variables qualitatives (à 2 modalités) et quantitatives : Analyse graphique (boxplot) et/ou test
+t pour échantillons indépendants
+
+<img width="740" height="216" alt="Biv_7" src="https://github.com/user-attachments/assets/e6302775-da3b-40e2-bfc7-85f3f04c5f7d" />
+
+<br>
+
+Nous insérons la variable quantitative dans "variable à tester" et la variable qualitative dans "variable de regroupement" en définissant les différents groupes correspondant aux différentes modalités
+
+<img width="586" height="352" alt="Biv_8" src="https://github.com/user-attachments/assets/10f9655a-b653-4f97-97de-214090a26c64" />
+
+<br>
+
+Si la relation est significative, il faut calculer la force de l’association (pas donné par SPSS) càd calculer l’indice Eta-carré (η2 ): 
+            t²
+η2 = ___________________
+      t² + (N1 + N2 -2)
+ 
+avec N1 et N2, la taille de chaque groupe. 
+ 
+Si coefficient ~0,01 alors faible association ; si coefficient ~0,06 alors association moyenne ; si coefficient ~0,14 
+et plus, alors forte association
