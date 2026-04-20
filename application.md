@@ -307,6 +307,8 @@ Cette analyse est confirmée par le test de la relation entre ces deux variables
 c) Croisements variables qualitatives (à 2 modalités) et quantitatives : Analyse graphique (boxplot) et/ou test
 t pour échantillons indépendants
 
+Procédure SPSS : 
+
 <img width="740" height="216" alt="Biv_7" src="https://github.com/user-attachments/assets/e6302775-da3b-40e2-bfc7-85f3f04c5f7d" />
 
 <br>
@@ -318,11 +320,55 @@ Nous insérons la variable quantitative dans "variable à tester" et la variable
 <br>
 
 Si la relation est significative, il faut calculer la force de l’association (pas donné par SPSS) càd calculer l’indice Eta-carré (η2 ): 
-            t²
-η2 = ___________________
-      t² + (N1 + N2 -2)
- 
+           
+η2 =  t² / t² + (N1 + N2 -2)
+
 avec N1 et N2, la taille de chaque groupe. 
  
 Si coefficient ~0,01 alors faible association ; si coefficient ~0,06 alors association moyenne ; si coefficient ~0,14 
 et plus, alors forte association
+
+VARIETE*LONGUEUR
+
+<img width="462" height="372" alt="QLQT_VL_1" src="https://github.com/user-attachments/assets/8b88b97a-a03e-4e66-b3b0-6b2290810e60" />
+
+<br>
+
+Graphiquement, il existe une relation entre la variété de l’huître et sa longueur : les huîtres de variété A semblent 
+moins longues que les huîtres de variété B. 
+- La variété A correspondrait à des huîtres de longueur majoritairement comprises entre 8 cm et 12 cm 
+- La variété B correspondrait à des huîtres de longueur majoritairement comprises entre 8 cm et 15 cm
+
+<img width="478" height="465" alt="QLQT_VL_2" src="https://github.com/user-attachments/assets/c7d1cd89-22c3-4ef8-be62-7ceaf9049f6f" />
+
+<br>
+
+Les huîtres de variété B sont en moyenne plus longues de 1,3 cm. 
+Nous devons déterminer quelles sont les probabilités d'observer une différence d'au moins 1,3 cm entre les deux 
+groupes indépendants d’huîtres (variété A et B) si ces deux groupes proviennent de la même population (H0)
+
+<img width="472" height="131" alt="QLQT_VL_3" src="https://github.com/user-attachments/assets/0278a5ba-dba8-4ed4-ba43-acb6d78a9f5b" />
+
+<br>
+
+<img width="768" height="153" alt="QLQT_VL_4" src="https://github.com/user-attachments/assets/816d3fb7-3d42-4753-a0f4-9cfd0c824146" />
+
+<br>
+
+Test d'homogénéité des variances est significatif : nous rejetons l'hypothèse nulle. Les variances sont 
+significativement différentes. Nous devons donc lire la deuxième ligne. 
+ 
+Le test t est significatif : on rejette H0, les deux groupes proviennent probablement de deux populations différentes. 
+
+Nous calculons donc l’intensité de la relation entre ces deux variables : 
+
+Eta-carré = (−11.302)² / (−11.302)2+(549+349−2) = 0,125 
+
+Relation significative d’intensité moyenne à forte.  
+
+On peut estimer la longueur de l’huître des observations N°392 et N°069 en fonction de leur variété. 
+
+Comme ces deux observations appartiennent à la variété B, nous imputons à ces deux observations, pour la variable LONGUEUR, la médiane du groupe B, à savoir : 10. 
+
+Remarque : Il y a une asymétrie sur la distribution de LONGUEUR, si nous avions imputé la 
+moyenne de LONGUEUR à ces observations, nous n’aurions pas été au plus proche de la réalité.
