@@ -23,7 +23,7 @@ Nous cherchons à modéliser le succès de la greffe (présence d'une perle) en 
   
 ### 2. Statistiques univariées : repérer les valeurs manquantes, aberrantes, voire extrêmes
 
-Pour chaque variable qualitative : 
+▶️Pour chaque variable qualitative : 
 - statistiques descriptives
 - diagramme à barres ou camembert (si modalités > 2)  
 
@@ -51,7 +51,7 @@ a) SUCCES
 <br>
 
 - Plus de la moitié des huîtres (65,6%) n’ont pas produit de perle 18 mois après la greffe 
-- Pas de valeurs manquantes / atypiques
+- Pas de valeurs manquantes, ni atypiques
 
 b) ZONE
 
@@ -60,7 +60,7 @@ b) ZONE
 <br>
 
 - Plus d’une huître greffée sur deux a été élevée dans la première zone.  
-- Pas de valeurs manquantes / atypiques
+- Pas de valeurs manquantes, ni atypiques
 
 c) VARIETE
 
@@ -69,19 +69,19 @@ c) VARIETE
 <br>
 
 - Près de trois huîtres greffées sur cinq sont de variété A 
-- Pas de valeurs manquantes / atypiques
+- Pas de valeurs manquantes, ni atypiques
 
-Pour chaque variable quantitative : 
+▶️Pour chaque variable quantitative : 
 - statistiques descriptives
 - histogramme ou boîtes à moustache
 
-Variables quantitatives 
+Nous avons ici quatre variables quantitatives :
 - PROFONDEUR
 - LONGUEUR
 - EPAISSEUR
 - POIDS
 
-Sur SPSS, 
+Sur SPSS, nous procédons aux différentes analyses :
 
 <img width="521" height="173" alt="SPSS_1" src="https://github.com/user-attachments/assets/7f1719e3-c9e5-42f9-a10f-9a20db696c29" />
 
@@ -95,7 +95,7 @@ Sur SPSS,
 
 <br>
 
-Pour les différentes variables nous obtenons les graphiques suivants :
+Pour les variables quantitatives, nous obtenons les résultats suivants :
 
 a) PROFONDEUR
 
@@ -111,10 +111,10 @@ a) PROFONDEUR
 
 <br>
 
-- Données sont bien comprises entre 5 et 10 cm (information du cas) 
-- Pas de valeurs manquantes, atypiques 
-- Variable quantitative discrète 
-- La très grande majorité des huîtres sont élevées entre 6 et 8 cm de profondeur (env. 76%)
+- Conformément aux informations du cas, les données sont bien comprises entre 5 cm et 10 cm 
+- Pas de valeurs manquantes, ni atypiques 
+- Il s'agit d'une variable quantitative discrète 
+- La très grande majorité des huîtres (près de 76%) sont élevées entre 6 et 8 cm de profondeur 
 
 b) LONGUEUR
 
@@ -126,9 +126,9 @@ b) LONGUEUR
 
 <br>
 
-- Données comprises entre 7,6 et 105 cm
-- Pas de valeurs manquantes, mais 2 valeurs atypiques : H392 (105 cm) et H069 (91 cm)
-- Ces valeurs peuvent être dues à un dysfonctionnement de l’appareil de mesure ou à une erreur de saisie => nous considérons ces valeurs comme manquantes
+- Données comprises entre 7,6 cm et 105 cm
+- Pas de valeurs manquantes, mais 2 valeurs atypiques : les huîtres n°392 (105 cm) et n°069 (91 cm)
+- Ces valeurs peuvent être dues à un dysfonctionnement de l’appareil de mesure ou à une erreur de saisie => **nous considérons ces valeurs comme manquantes**
 
 <img width="487" height="392" alt="graph_9" src="https://github.com/user-attachments/assets/c4851ac9-771c-4151-9d5a-b9a1f5eb723a" />
 
@@ -138,10 +138,10 @@ b) LONGUEUR
 
 <br>
 
-- Données comprises entre 7,6 et 14,6 cm
-- Queue de distribution étalée vers la gauche ; asymétrie à gauche (coefficient d’asymétrie = 1,052)
-- 50% des observations ont une longueur comprise entre 7,6 et 9,2 cm
-- On pourrait faire une transformation logarithmique pour aplatir la distribution
+- Données comprises entre 7,6 cm et 14,6 cm
+- La distribution est étalée vers la gauche => asymétrie à gauche (coefficient d’asymétrie = 1,052)
+- 50% des observations ont une longueur comprise entre 7,6 cm et 9,2 cm
+- Nous pourrions procéder à une transformation logarithmique pour aplatir la distribution
   
 c) EPAISSEUR
 
@@ -149,9 +149,9 @@ c) EPAISSEUR
 
 <br>
 
-- Données comprises entre 1,3 et 3,9 cm
+- Données comprises entre 1,3 cm et 3,9 cm
 - Pas de valeurs manquantes, ni atypiques
-- L’huître mesure en moyenne 2,7 cm d’épaisseur. 
+- Les huîtres ont une épaisseur moyenne de 2,7 cm
 
 d) POIDS
 
@@ -163,18 +163,23 @@ d) POIDS
 
 <br>
 
-- Données comprises entre 71 et 156 grammes
+- Données comprises entre 71 g et 156 g
 - 20 valeurs manquantes, pas de valeurs atypiques
-- Queue de distribution étalée vers la gauche ; asymétrie à gauche (coefficient d’asymétrie = 0,687)
-- 50% des observations ont un poids compris entre 71 et 99 grammes
+- La distribution est étalée vers la gauche ; asymétrie à gauche (coefficient d’asymétrie = 0,687)
+- 50% des observations ont un poids compris entre 71 g et 99 g
 
-Conclusion Statistiques Univariées 
-Variables qualitatives : 
-Les huîtres qui ne produisent pas de perle représentent 66% des huîtres greffées 
-Les huîtres, dans leur majorité : - ont été élevées dans la première zone (53%),  - sont de variété A (61%), 
-pas de valeurs manquantes, ni aberrantes 
+### Conclusion Statistiques Univariées 
+
+▶️Variables qualitatives : 
+- Les huîtres ne produisant pas de perle représentent **66% des huîtres greffées**
+- Les huîtres, dans leur majorité :
+              - ont été **élevées dans la zone 1 (53%)**
+              - sont de **variété A (61%)**
+- Absence de valeurs manquantes et atypiques 
  
-Variables quantitatives : - La majorité des huîtres ont été élevées entre 6 et 8 cm de profondeur (~76%) - Les huîtres ont une épaisseur moyenne de 2,7 cm au moment de la greffe. 
- - 2 valeurs aberrantes pour LONGUEUR, qui ont été considérées comme manquantes - Après suppression de ces données, les huîtres ont une longueur moyenne de 9,7 cm 
-(médiane = 9,2).  
- - 20 valeurs manquantes pour POIDS - Les huîtres ont un poids moyen de 102g au moment de la greffe (médiane = 99).
+▶️Variables quantitatives : 
+- La majorité des huîtres ont été élevées **entre 6 cm et 8 cm de profondeur (~76%)**
+- Les huîtres ont une **épaisseur moyenne de 2,7 cm** au moment de la greffe 
+- 2 valeurs aberrantes pour LONGUEUR, qui ont été **considérées comme manquantes** => après suppression de ces données, les huîtres ont une **longueur moyenne de 9,7 cm (médiane = 9,2)**  
+- 20 valeurs manquantes pour POIDS
+- Les huîtres ont un **poids moyen de 102 g** au moment de la greffe (médiane = 99)
