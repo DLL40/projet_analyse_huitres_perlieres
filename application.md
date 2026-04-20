@@ -34,7 +34,7 @@ Ainsi, sur SPSS :
 
 <img width="542" height="140" alt="SPSS_11" src="https://github.com/user-attachments/assets/ac7a790f-51c8-4be1-8c31-2460a267d3f7" />
 
-<b/>
+<br>
 
 <img width="543" height="261" alt="SPSS_22" src="https://github.com/user-attachments/assets/c7dc45ec-1486-47ab-b927-10211a1bfe24" />
 
