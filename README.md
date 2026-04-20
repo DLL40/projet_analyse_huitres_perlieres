@@ -1,4 +1,4 @@
-# Etude de cas : analyse huîtres perlières
+# Etude de cas : Analyse huîtres perlières
 
 ### Contexte :
 
