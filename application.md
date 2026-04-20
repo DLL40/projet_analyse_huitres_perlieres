@@ -13,8 +13,8 @@ D'après l'énoncé, nous savons que :
 
 Nous cherchons à modéliser le succès de la greffe (présence d'une perle) en fonction des caractéristiques de l’huitre au moment de la greffe. Ce qui intéresse particulièrement l'entreprise PACIFIC FISHER, c’est d’augmenter le taux de succès en diminuant la probabilité d’échec. On cherche donc à connaître les facteurs qui contribuent au succès de la greffe. 
 
-Variable cible : SUCCES (qualitative binaire) 
-Prédicteurs : ZONE ; VARIETE ; PROFONDEUR ; LONGUEUR ; EPAISSEUR ; POIDS 
-Deux modèles de discrimination pourront être mis en compétitions : 
-- Régression logistique
-- Arbre de discrimination
+- Variable cible : SUCCES (qualitative binaire) 
+- Prédicteurs : ZONE ; VARIETE ; PROFONDEUR ; LONGUEUR ; EPAISSEUR ; POIDS 
+- Deux modèles de discrimination pourront être mis en compétitions : 
+      - Régression logistique
+      - Arbre de discrimination
