@@ -3,9 +3,9 @@
 ### 1. Dictionnaire des données : aperçu du nombre de variables, leur nom, leur type et paramètres, les ordres de grandeur 
 
 D'après l'énoncé, nous savons que : 
-- nous disposons de 900 observations 
-- la variable PROFONDEUR est comprise entre 5 cm et 10 cm 
-- la variable SUCCES = Oui ne concernent que 30% des huîtres
+- Nous disposons de 900 observations 
+- La variable PROFONDEUR est comprise entre 5 cm et 10 cm 
+- La variable SUCCES prenant la modalité "Oui" ne concernent que 30% des huîtres
 
 <img width="993" height="287" alt="Dictionnaire des données" src="https://github.com/user-attachments/assets/c4536ef4-a4dc-4585-b601-3766e5091bcf" />
 
@@ -172,9 +172,7 @@ d) POIDS
 
 ▶️Variables qualitatives : 
 - Les huîtres ne produisant pas de perle représentent **66% des huîtres greffées**
-- Les huîtres, dans leur majorité :
-              - ont été **élevées dans la zone 1 (53%)**
-              - sont de **variété A (61%)**
+- Les huîtres, dans leur majorité : ont été **élevées dans la zone 1 (53%)** et sont de **variété A (61%)**
 - Absence de valeurs manquantes et atypiques 
  
 ▶️Variables quantitatives : 
