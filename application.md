@@ -1,4 +1,4 @@
-# ANALYSE EXPLORATOIRE ET DESCRIPTIVE DES DONNEES
+# Analyse Exploiratoire et Descriptive des Données
 
 ### 1. Dictionnaire des données : prendre connaissance des ordres de grandeur, des données 
 
