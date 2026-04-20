@@ -197,3 +197,17 @@ d) POIDS
     </td>
     <td style="border: none; vertical-align: middle;"> : Croisement de deux variables qualitatives
     </td>
+  <tr style="border: none;">
+    <td style="border: none; vertical-align: middle;">
+      <img width="97" height="26" alt="legend_qlqt" src="https://github.com/user-attachments/assets/5e83c9d3-7849-42af-9065-a6faa6157d2e">
+    </td>
+    <td style="border: none; vertical-align: middle;"> : Croisement d’une variable qualitative (2 ou 3 modalités) et quantitative
+    </td>
+  <tr style="border: none;">
+    <td style="border: none; vertical-align: middle;">
+      <img width="97" height="26" alt="legend_qtqt" src="https://github.com/user-attachments/assets/213aacc9-00c7-42b8-a8d7-44e538a4bd40">
+    </td>
+    <td style="border: none; vertical-align: middle;"> : Croisement de deux variables quantitatives
+    </td>
+  </tr>
+</table>
