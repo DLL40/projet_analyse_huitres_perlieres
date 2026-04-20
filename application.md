@@ -17,9 +17,7 @@ Nous cherchons à modéliser le succès de la greffe (présence d'une perle) en 
 
 - Variable cible : SUCCES (qualitative binaire) 
 - Prédicteurs : ZONE ; VARIETE ; PROFONDEUR ; LONGUEUR ; EPAISSEUR ; POIDS 
-- Deux modèles de discrimination pourront être mis en compétitions : 
-      - Régression logistique
-      - Arbre de discrimination
+- Deux modèles de discrimination pourront être mis en compétition : **Régression logistique** et **Arbre de discrimination**
   
 ### 2. Statistiques univariées : repérer les valeurs manquantes, aberrantes, voire extrêmes
 
