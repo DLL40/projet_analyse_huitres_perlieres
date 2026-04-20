@@ -182,6 +182,8 @@ d) POIDS
 
 ### 3.  Statistiques bivariées : repérer des relations fortes entre deux variables, trouver des solutions pour les valeurs manquantes
 
+Ci-dessous, un tableau résumant le nombre d'analyses bivariées à effectuer ainsi que la nature de ces croisements
+
 <img width="966" height="267" alt="tableau_corr_1" src="https://github.com/user-attachments/assets/aa38de43-c152-438f-8552-b8e61a1db030" />
 
 <br>
@@ -207,3 +209,46 @@ d) POIDS
     </td>
   </tr>
 </table>
+
+En théorie, nous devrions effectuer 21 analyses bivariées. Cependant, nous allons voir qu'il sera possible de reduire ce nombre d’analyses en supprimant notamment les variables susceptibles d'être redondantes en informations.
+
+Par exemple, il apparait tout à fait pertinent de penser que la longueur ou l’épaisseur de l’huître ont possiblement une relation avec le poids de l’huître. De plus, pour rappel, le poids de l’huître possède 20 valeurs manquantes. 
+
+a) Croisements de deux variables quantitatives : corrélations (matrice de dispersion)
+
+- LONGUEUR*POIDS
+- LONGUEUR*EPAISSEUR
+- POIDS*EPAISSEUR  
+- PROFONDEUR*POIDS  
+- PROFONDEUR*LONGUEUR
+
+Etape 1 : analyse visuelle avec la matrice de dispersion
+
+Sur SPSS, pour obtenir la matrice de dispersion, nous suivons les étapes ci-dessous
+
+<img width="598" height="456" alt="Biv_1" src="https://github.com/user-attachments/assets/f4472e96-4eaf-4c3b-a642-3c9466f92a3b" />
+
+<br>
+
+<img width="571" height="243" alt="Biv_2" src="https://github.com/user-attachments/assets/10c655a2-c07e-4fb8-8604-2c76d4496ba9" />
+
+<br>
+
+En cliquant sur "Dispersion de type matrice" nous pouvons insérer toutes les variables quantitatives
+Nous obtenons alors la matrice de dispersion suivantes :
+
+<img width="497" height="396" alt="QTQT_1" src="https://github.com/user-attachments/assets/c4d80bc0-6dfc-4f33-b1ce-efc93bd06f04" />
+
+<br>
+
+Ainsi, graphiquement, nous constatons : 
+- pas ou peu de relation entre la profondeur d’élevage et les autres prédicteurs
+- une relation linéaire positive entre le poids de l’huître et sa longueur => plus une huître est lourde et plus elle est longue  
+- pas ou peu de relation entre LONGUEUR et les autres prédicteurs 
+- pas ou peu de relation entre EPAISSEUR et les autres prédicteurs
+
+Etape 2 : test de la significativité de la relation
+
+Nous pouvons quantifier l’intensité des relations par le coefficient de corrélation de Bravais-Pearson :
+
+<img width="541" height="320" alt="QTQT_2" src="https://github.com/user-attachments/assets/5bf16d6f-ded9-4ff2-a82a-d06155ffe72b" />
