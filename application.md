@@ -186,9 +186,9 @@ d) POIDS
 
 <br>
 
-<img width="92" height="27" alt="legend_qlql" src="https://github.com/user-attachments/assets/0ec13723-8890-4100-976d-a1e90f0ef19a" />
-<img width="97" height="26" alt="legend_qlqt" src="https://github.com/user-attachments/assets/5e83c9d3-7849-42af-9065-a6faa6157d2e" />
-<img width="127" height="26" alt="legend_qtqt" src="https://github.com/user-attachments/assets/213aacc9-00c7-42b8-a8d7-44e538a4bd40" />
+<img width="92" height="27" alt="legend_qlql" src="https://github.com/user-attachments/assets/0ec13723-8890-4100-976d-a1e90f0ef19a" /> : Croisement de deux variables qualitatives
+<img width="97" height="26" alt="legend_qlqt" src="https://github.com/user-attachments/assets/5e83c9d3-7849-42af-9065-a6faa6157d2e" /> : Croisement d’une variable qualitative (2 ou 3 modalités) et quantitative
+<img width="97" height="26" alt="legend_qtqt" src="https://github.com/user-attachments/assets/213aacc9-00c7-42b8-a8d7-44e538a4bd40" /> : Croisement de deux variables quantitatives
 
 
 
