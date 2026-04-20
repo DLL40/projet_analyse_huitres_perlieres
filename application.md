@@ -9,6 +9,8 @@ D'après l'énoncé, nous savons que :
 
 <img width="993" height="287" alt="Dictionnaire des données" src="https://github.com/user-attachments/assets/c4536ef4-a4dc-4585-b601-3766e5091bcf" />
 
+<br>
+
 **Objectif de l'étude :**
 
 Nous cherchons à modéliser le succès de la greffe (présence d'une perle) en fonction des caractéristiques de l’huitre au moment de la greffe. Ce qui intéresse particulièrement l'entreprise PACIFIC FISHER, c’est d’augmenter le taux de succès en diminuant la probabilité d’échec. Nous devons donc déterminer les facteurs qui contribuent au succès de la greffe. 
