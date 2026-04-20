@@ -179,3 +179,17 @@ d) POIDS
 - 2 valeurs aberrantes pour LONGUEUR, qui ont été **considérées comme manquantes** => après suppression de ces données, les huîtres ont une **longueur moyenne de 9,7 cm (médiane = 9,2)**  
 - 20 valeurs manquantes pour POIDS
 - Les huîtres ont un **poids moyen de 102 g** au moment de la greffe (médiane = 99)
+
+### 3.  Statistiques bivariées : repérer des relations fortes entre deux variables, trouver des solutions pour les valeurs manquantes
+
+<img width="966" height="267" alt="tableau_corr_1" src="https://github.com/user-attachments/assets/aa38de43-c152-438f-8552-b8e61a1db030" />
+
+<br>
+
+<img width="92" height="27" alt="legend_qlql" src="https://github.com/user-attachments/assets/0ec13723-8890-4100-976d-a1e90f0ef19a" />
+<img width="97" height="26" alt="legend_qlqt" src="https://github.com/user-attachments/assets/5e83c9d3-7849-42af-9065-a6faa6157d2e" />
+<img width="127" height="26" alt="legend_qtqt" src="https://github.com/user-attachments/assets/213aacc9-00c7-42b8-a8d7-44e538a4bd40" />
+
+
+
+
