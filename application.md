@@ -11,7 +11,7 @@ D'après l'énoncé, nous savons que :
 
 <br>
 
-**Objectif de l'étude :**
+### Objectif de l'étude :
 
 Nous cherchons à modéliser le succès de la greffe (présence d'une perle) en fonction des caractéristiques de l’huitre au moment de la greffe. Ce qui intéresse particulièrement l'entreprise PACIFIC FISHER, c’est d’augmenter le taux de succès en diminuant la probabilité d’échec. Nous devons donc déterminer les facteurs qui contribuent au succès de la greffe. 
 
@@ -40,7 +40,7 @@ Ainsi, sur SPSS :
 
 <br>
 
-Pour les différentes variables nous obtenons les graphiques suivants :
+Pour les différentes variables qualitatives nous obtenons les graphiques suivants :
 
 a) SUCCES
 
