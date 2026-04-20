@@ -94,13 +94,49 @@ a) PROFONDEUR
 
 b) LONGUEUR
 
+<img width="435" height="95" alt="graph_7" src="https://github.com/user-attachments/assets/348e06c8-87e1-4345-8add-1207c81fed43" />
 
+<img width="371" height="326" alt="graph_8" src="https://github.com/user-attachments/assets/209251e7-2a43-4b4f-bce6-01a3407b29c2" />
 
+- Données comprises entre 7,6 et 105 cm
+- Pas de valeurs manquantes, mais 2 valeurs atypiques : H392 (105 cm) et H069 (91 cm)
+- Ces valeurs peuvent être dues à un dysfonctionnement de l’appareil de mesure ou à une erreur de saisie => nous considérons ces valeurs comme manquantes
+
+<img width="487" height="392" alt="graph_9" src="https://github.com/user-attachments/assets/c4851ac9-771c-4151-9d5a-b9a1f5eb723a" />
+
+<img width="657" height="137" alt="graph_10" src="https://github.com/user-attachments/assets/123fd6f6-9882-4b76-969e-526aaf4cd93e" />
+
+- Données comprises entre 7,6 et 14,6 cm
+- Queue de distribution étalée vers la gauche ; asymétrie à gauche (coefficient d’asymétrie = 1,052)
+- 50% des observations ont une longueur comprise entre 7,6 et 9,2 cm
+- On pourrait faire une transformation logarithmique pour aplatir la distribution
+  
 c) EPAISSEUR
 
+<img width="427" height="340" alt="graph_11" src="https://github.com/user-attachments/assets/869400e2-2947-434f-931b-2fb3b90b4969" />
 
+- Données comprises entre 1,3 et 3,9 cm
+- Pas de valeurs manquantes, ni atypiques
+- L’huître mesure en moyenne 2,7 cm d’épaisseur. 
 
 d) POIDS
 
+<img width="502" height="115" alt="graph_12" src="https://github.com/user-attachments/assets/a396a4c2-72ee-4525-9798-22ec6318164f" />
 
+<img width="438" height="353" alt="graph_13" src="https://github.com/user-attachments/assets/b6ee5247-39d0-45ba-9d91-8d135419fcd7" />
 
+- Données comprises entre 71 et 156 grammes
+- 20 valeurs manquantes, pas de valeurs atypiques
+- Queue de distribution étalée vers la gauche ; asymétrie à gauche (coefficient d’asymétrie = 0,687)
+- 50% des observations ont un poids compris entre 71 et 99 grammes
+
+Conclusion Statistiques Univariées 
+Variables qualitatives : 
+Les huîtres qui ne produisent pas de perle représentent 66% des huîtres greffées 
+Les huîtres, dans leur majorité : - ont été élevées dans la première zone (53%),  - sont de variété A (61%), 
+pas de valeurs manquantes, ni aberrantes 
+ 
+Variables quantitatives : - La majorité des huîtres ont été élevées entre 6 et 8 cm de profondeur (~76%) - Les huîtres ont une épaisseur moyenne de 2,7 cm au moment de la greffe. 
+ - 2 valeurs aberrantes pour LONGUEUR, qui ont été considérées comme manquantes - Après suppression de ces données, les huîtres ont une longueur moyenne de 9,7 cm 
+(médiane = 9,2).  
+ - 20 valeurs manquantes pour POIDS - Les huîtres ont un poids moyen de 102g au moment de la greffe (médiane = 99).
