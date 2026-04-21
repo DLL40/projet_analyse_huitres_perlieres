@@ -368,3 +368,14 @@ Eta-carré = (−11.302)² / (−11.302)2+(549+349−2) = 0,125
 
 Comme ces deux observations appartiennent à la variété B, nous imputons à ces deux observations, pour la variable LONGUEUR, la médiane du groupe B, c'est à dire 10 cm. En effet, en raison de la présence d'une asymétrie sur la distribution de LONGUEUR, nous ne pouvons leur attribuer la valeur de la moyenne de la variable LONGUEUR car celle-ci est biaisée.
 
+Quelle variable garder dans notre modèle ? La longueur de l’huître ou la variété ? 
+
+À priori, nous devrions garder la longueur car la variété de l’huître semble être déterminer par sa longueur. Cependant, la variété de l’huître est peut être une variable plus riche en informations en nous renseignant sur d'autres critères que la simple longueur de l’huître. 
+
+Pour décider, nous décidons de regarder la variable qui explique le plus la présence d’une perle 18 mois après la 
+greffe, c'est à dire, la variable dont l'intensité de la relation avec la variable SUCCES est la plus prononcée
+
+SUCCES*VARIETE
+
+
+SUCCES*LONGUEUR
