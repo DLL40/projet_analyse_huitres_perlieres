@@ -355,20 +355,16 @@ groupes indépendants d’huîtres (variété A et B) si ces deux groupes provie
 
 <br>
 
-Test d'homogénéité des variances est significatif : nous rejetons l'hypothèse nulle. Les variances sont 
+Le test d'homogénéité des variances est significatif : nous rejetons l'hypothèse nulle. Les variances sont 
 significativement différentes. Nous devons donc lire la deuxième ligne. 
  
 Le test t est significatif : on rejette H0, les deux groupes proviennent probablement de deux populations différentes. 
 
-Nous calculons donc l’intensité de la relation entre ces deux variables : 
+Nous pouvons ainsi calculer l’intensité de la relation entre ces deux variables : 
 
 Eta-carré = (−11.302)² / (−11.302)2+(549+349−2) = 0,125 
 
-Relation significative d’intensité moyenne à forte.  
+↪️Relation significative d’intensité moyenne à forte => Il est donc possible d'estimer la longueur de l’huître des observations N°392 et N°069 en fonction de leur variété
 
-On peut estimer la longueur de l’huître des observations N°392 et N°069 en fonction de leur variété. 
+Comme ces deux observations appartiennent à la variété B, nous imputons à ces deux observations, pour la variable LONGUEUR, la médiane du groupe B, c'est à dire 10 cm. En effet, en raison de la présence d'une asymétrie sur la distribution de LONGUEUR, nous ne pouvons leur attribuer la valeur de la moyenne de la variable LONGUEUR car celle-ci est biaisée.
 
-Comme ces deux observations appartiennent à la variété B, nous imputons à ces deux observations, pour la variable LONGUEUR, la médiane du groupe B, à savoir : 10. 
-
-Remarque : Il y a une asymétrie sur la distribution de LONGUEUR, si nous avions imputé la 
-moyenne de LONGUEUR à ces observations, nous n’aurions pas été au plus proche de la réalité.
