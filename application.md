@@ -325,6 +325,7 @@ Si la relation est significative, il faut calculer la force de l’association (
 
 avec N1 et N2, la taille de chaque groupe. 
  
+> [!NOTE]
 Si coefficient ~0,01 alors faible association ; si coefficient ~0,06 alors association moyenne ; si coefficient ~0,14 
 et plus, alors forte association
 
@@ -377,5 +378,81 @@ greffe, c'est à dire, la variable dont l'intensité de la relation avec la vari
 
 SUCCES*VARIETE
 
+<img width="362" height="287" alt="QLQL_SV_1" src="https://github.com/user-attachments/assets/e4c84626-5184-466e-9796-c048b072a2c3" />
+
+<br>
+
+<img width="362" height="117" alt="QLQL_SV_2" src="https://github.com/user-attachments/assets/276af040-0ee6-40d2-b0c9-8f426527c706" />
+
+<br>
+
+Les huîtres de variété A ont plus de chances que celles de variété B de produire une perle 18 mois après la greffe. 
+La relation est significative mais l’association est plutôt faible (~0,14)
 
 SUCCES*LONGUEUR
+
+<img width="312" height="251" alt="QLQT_SL_1" src="https://github.com/user-attachments/assets/584a1909-32de-4f1a-8cff-ae40f66f2709" />
+
+<br>
+
+<img width="766" height="257" alt="QLQT_SL_2" src="https://github.com/user-attachments/assets/d02d7aed-0529-45d5-b18f-44976a934b18" />
+
+<br>
+
+Le test d'homogénéité des variances est significatif : nous rejetons l'hypothèse nulle. Les variances sont 
+significativement différentes. Nous devons donc lire la deuxième ligne. 
+
+Le test t est significatif : les deux groupes proviennent probablement de deux populations différentes. 
+
+Nous calculons donc l’intensité de la relation entre ces deux variables : 
+
+Eta-carré = (−9.487)² / (−9.487)²+(590+310−2) = 0,09 
+
+↪️L’association entre ces deux variables est significative, et est moyenne à forte => Plus l’huître est longue et moins elle est susceptible de produire une perle. 
+
+Par conséquent, nous choisissons de garder dans notre modèle la variable qui a la plus forte relation avec la variable cible : il s’agit de la longueur de l’huître.
+
+d) Croisements variables qualitatives (à 3 modalités) et quantitatives : Analyse graphique (boxplot) et/ou 
+ANOVA à 1 facteur
+
+> [!NOTE]
+Pour l’ANOVA à 1 facteur, la variable qualitative doit être recodée en numérique
+
+Procédure SPSS pour recoder une variable
+
+<img width="562" height="215" alt="Biv_9" src="https://github.com/user-attachments/assets/6c52292e-3c2a-4a1e-b34b-8754284d3f14" />
+
+<br>
+
+<img width="746" height="403" alt="Biv_10" src="https://github.com/user-attachments/assets/2608168c-9d25-44e9-a4a8-fc0c26ff8cc4" />
+
+<br>
+
+Dans "Variable de destination", nous pouvons nommer la nouvelle variable puis cliquer sur "Changer"
+
+Enfin, en cliquant sur "Anciennes et nouvelles valeurs" nous pouvons recoder les différentes modalités afin de finaliser la transformation de la variable qualitative en variable numérique
+
+<img width="693" height="333" alt="Biv_11" src="https://github.com/user-attachments/assets/819870f1-5854-4991-8898-a6184ce67dd1" />
+
+<br>
+
+La variable qualitative (à 3 modalités) à présent recodée en variable quantitative, nous sommes désormais prêts à lancer l'analyse : 
+
+<img width="646" height="266" alt="Biv_12" src="https://github.com/user-attachments/assets/3a276cd4-e9cd-4c9c-a1b0-908b243efa16" />
+
+<br>
+ 
+Nous insérons la variable quantitative dans "Variables dépendantes" et la variable qualitative dans "Facteur"
+
+<img width="598" height="322" alt="Biv_13" src="https://github.com/user-attachments/assets/4242acc3-4466-4a53-8579-b58547cf4e1e" />
+
+<br>
+
+Si le test ANOVA est significatif, nous calculons la force de l’association :
+
+r = $\sqrt{\frac{Somme des carrés inter-groupes}{Somme totale des carrés}}$
+
+> [!NOTE]
+Si coefficient ~0,10 alors faible association ; si coefficient ~0,30 alors association moyenne ; si coefficient >0,50 
+alors forte association
+
