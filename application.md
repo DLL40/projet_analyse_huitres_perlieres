@@ -450,7 +450,7 @@ Nous insérons la variable quantitative dans "Variables dépendantes" et la vari
 
 Si le test ANOVA est significatif, nous calculons la force de l’association :
 
-r = $$\sqrt{\frac{Somme des carrés inter groupes}{Somme totale des carrés}}$$
+$$r = \sqrt{\frac{\text{Somme des carrés intergroupes}}{\text{Somme totale des carrés}}}$$
 
 > [!NOTE]
 Si coefficient ~0,10 alors faible association ; si coefficient ~0,30 alors association moyenne ; si coefficient >0,50 
