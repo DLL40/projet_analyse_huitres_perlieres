@@ -321,7 +321,7 @@ Nous insérons la variable quantitative dans "variable à tester" et la variable
 
 Si la relation est significative, il faut calculer la force de l’association (pas donné par SPSS) càd calculer l’indice Eta-carré (η2 ): 
            
-η2 =  t² / t² + (N1 + N2 -2)
+$$η2 = \sqrt{\frac{\text{t²}}{\text{t² + (N1 + N2-2)}}}$$
 
 avec N1 et N2, la taille de chaque groupe. 
  
@@ -363,7 +363,7 @@ Le test t est significatif : on rejette H0, les deux groupes proviennent probabl
 
 Nous pouvons ainsi calculer l’intensité de la relation entre ces deux variables : 
 
-Eta-carré = (−11.302)² / (−11.302)2+(549+349−2) = 0,125 
+$$Eta-carré = \sqrt{\frac{(−11.302)²}{(−11.302)²+(549+349−2)} = 0,125}$$   
 
 ↪️Relation significative d’intensité moyenne à forte => Il est donc possible d'estimer la longueur de l’huître des observations N°392 et N°069 en fonction de leur variété
 
