@@ -373,7 +373,7 @@ Quelle variable garder dans notre modèle ? La longueur de l’huître ou la var
 
 À priori, nous devrions garder la longueur car la variété de l’huître semble être déterminer par sa longueur. Cependant, la variété de l’huître est peut être une variable plus riche en informations en nous renseignant sur d'autres critères que la simple longueur de l’huître. 
 
-Pour décider, nous décidons de regarder la variable qui explique le plus la présence d’une perle 18 mois après la 
+Pour nous aider, nous décidons de regarder la variable qui explique le plus la présence d’une perle 18 mois après la 
 greffe, c'est à dire, la variable dont l'intensité de la relation avec la variable SUCCES est la plus prononcée
 
 SUCCES*VARIETE
@@ -455,4 +455,141 @@ $$r = \sqrt{\frac{\text{Somme des carrés intergroupes}}{\text{Somme totale des 
 > [!NOTE]
 Si coefficient ~0,10 alors faible association ; si coefficient ~0,30 alors association moyenne ; si coefficient >0,50 
 alors forte association
+
+ ZONE*PROFONDEUR 
+
+ <img width="272" height="222" alt="QLQT_ZP_1" src="https://github.com/user-attachments/assets/7f162a2f-d3ab-4bef-88f1-e8ee4eb408dc" />
+
+<br>
+
+Graphiquement, nous constatons une relation entre ZONE et PROFONDEUR. Les variables ne sont pas indépendantes :
+
+- La Zone1 correspond à une profondeur comprise entre 5 m et 10 m  -
+- La Zone2 correspond à une profondeur comprise entre 5 m et 9 m  
+- La Zone3 correspond à une profondeur comprise entre 5 m et 8 m
+
+A priori, nous garderions dans notre modèle, la variable qui nous apporte l’information la plus complète à 
+savoir la variable PROFONDEUR. 
+
+Cependant, il peut s’avérer que la variable ZONE dispose d'informations dont nous n’avons pas connaissance (ex : la "Zone1" est traitée de telle sorte, la "Zone2" de telle autre...) => Dans tous les cas, il n’est pas utile de garder ces deux variables dans un même modèle.
+
+Ici, étant donné que nous constatons graphiquement et logiquement la relation, nous décidons qu'il n'est pas utile d’effectuer un test sur la relation. 
+
+Quelle variable garder dans notre modèle ? La zone ou la profondeur d’élevage ? 
+
+À priori, nous devrions garder la profondeur car la zone semble avoir été établie en fonction de la profondeur d’élevage. Or, la zone d’élevage est peut être une variable plus riche en informations en nous renseignant sur d'autres critères que la simple profondeur d’élevage de l’huître. 
+
+Pour nous aider, nous décidons de regarder la variable qui explique le plus la présence d’une perle 18 mois après la greffe, c'est à dire, la variable dont l'intensité de la relation avec la variable SUCCES est la plus prononcée
+
+ZONE*SUCCES
+
+<img width="356" height="290" alt="QLQL_ZS_1" src="https://github.com/user-attachments/assets/1c01f66c-6695-4000-ac63-e14db9465423" />
+
+<br>
+
+<img width="401" height="122" alt="QLQL_ZS_2" src="https://github.com/user-attachments/assets/c9f8dd59-9395-4d1b-8eba-01e6dbefa09c" />
+
+<br>
+
+Les huîtres de la zone 1 ont plus de chances que, respectivement, celles de la zone 2 puis de zone 3 de produire une 
+perle 18 mois après la greffe. La relation est significative mais l’association est plutôt moyenne (0,33)
+
+PROFONDEUR*SUCCES
+
+<img width="286" height="228" alt="QLQT_PS_1" src="https://github.com/user-attachments/assets/14fdf6a1-39bf-4729-ba01-e471cd5895f4" />
+
+<br>
+
+<img width="763" height="247" alt="QLQT_PS_2" src="https://github.com/user-attachments/assets/9f97ae29-8c20-4aea-aafc-63cd3a6fb19a" />
+
+<br>
+
+Le test d'homogénéité des variances est significatif : nous rejetons l'hypothèse nulle. Les variances sont 
+significativement différentes. Nous devons donc lire la deuxième ligne. 
+
+Le test t est significatif : les deux groupes proviennent probablement de deux populations différentes.  
+
+Nous calculons donc l’intensité de la relation entre ces deux variables : 
+
+$$Eta-carré = \sqrt{\frac{(−6,578)²}{(−6,578)²+(590+310−2)} = 0,05}$$ 
+
+L’association entre ces deux variables est significative, mais d’intensité moyenne. 
+
+Comme les deux variables entretiennent toutes deux une relation moyenne avec notre variable cible (SUCCES), nous proposerons deux modèles : 
+
+- un modèle avec ZONE comme prédicteur 
+- un autre modèle avec PROFONDEUR comme prédicteur
+
+Nous poursuivons donc notre analyse des croisements d’une variable qualitative (3 modalités) et quantitative: 
+
+ZONE*LONGUEUR 
+
+<img width="407" height="327" alt="QLQT_ZL_1" src="https://github.com/user-attachments/assets/3b76a9ea-0d7f-4df5-be93-601c21c9bea5" />
+
+<br>
+
+Il semblerait que plus une huître est longue et plus elle appartient au numéro de zone d’élevage le plus élevé. 
+
+Cependant, cette relation n’est pas claire, il nous faut donc calculer sa significativité et son intensité si nécessaire.
+
+<img width="541" height="172" alt="QLQT_ZL_2" src="https://github.com/user-attachments/assets/d6f9972a-50f8-4b4a-a3cb-ef40773a8643" />
+
+<br>
+
+Le test n’est pas significatif. Nous considérons donc que la longueur de l’huître et sa zone d’élevage sont deux 
+caractéristiques indépendantes.
+
+ ZONE*EPAISSEUR
+
+ <img width="362" height="291" alt="QLQT_ZE_1" src="https://github.com/user-attachments/assets/3487e4e2-3319-44ee-b6b0-95af46aea993" />
+
+ <br>
+
+À l’inverse de l’analyse précédente, nous constatons clairement une relation entre la zone d’élevage et l’épaisseur 
+de l’huître => plus une huître est épaisse et plus elle a de chances d’être élevé dans la zone au numéro le plus faible. 
+
+Rappelons que plus la zone possède un numéro faible et plus la profondeur d’élevage est élevée. Ce qui nous 
+amène finalement à dire que plus l’huître est épaisse et plus elle a de chances d’avoir été élevée en zone profonde.
+
+<img width="482" height="156" alt="QLQT_ZE_2" src="https://github.com/user-attachments/assets/27167ed7-14e5-4473-87f2-f7700ba8d095" />
+
+<br>
+
+Le test est significatif. Nous considérons donc que l’épaisseur de l’huître et sa zone d’élevage sont deux 
+caractéristiques dépendantes (p<0,05). Nous calculons donc la force de cette association :
+
+$$r = \sqrt{\frac{44,908}{369.887} = 0,35}$$
+
+L’association entre ces deux variables est moyenne
+
+Au final, les modèles que nous proposons afin de prédire le succès de la greffe d’une huître sont les suivants : 
+
+- **Modèle 1 :** SUCCES = PROFONDEUR + LONGUEUR + EPAISSEUR 
+- **Modèle 2 :** SUCCES = ZONE + LONGUEUR + EPAISSEUR
+
+### Conclusion Statistiques Bivariées 
+
+Cette analyse nous a permis de détecter :  
+
+- 20 valeurs manquantes pour la variable POIDS 
+- 2 valeurs aberrantes pour la variable LONGUEUR (Huîtres N°069 et N°392)
+
+et de constater une relation forte entre :
+
+- le poids et la longueur d’une huître 
+- la variété de l’huître et sa longueur => les huîtres N°069 et N°392 étant des huîtres de variété B, nous leur avons imputé la valeur de 10 cm pour la longueur
+- la zone et la profondeur d’élevage de l’huître greffée
+ 
+Par conséquent, les variables que nous rejetons pour expliquer la présence d’une perle sont : 
+- le poids de l’huître => relation forte avec sa longueur + 20 valeurs manquantes
+- la variété de l’huître => relation forte avec sa longueur + explique moins bien la présence d’une perle que la longueur de l’huître
+ 
+Finalement, les modèles que nous retenons pour expliquer la présence d’une perle commercialisable 18 mois après la greffe d’une huître sont les suivants : 
+
+- **Modèle 1 :** SUCCES =  PROFONDEUR + LONGUEUR + EPAISSEUR  
+- **Modèle 2 :** SUCCES =  ZONE + LONGUEUR + EPAISSEUR
+
+
+
+
 
