@@ -282,7 +282,7 @@ En cliquant sur "Statistiques" et en cochant Khi-deux et Phi et V de Cramer, nou
 - Le coefficient Phi est pertinent pour les tableaux 2x2 seulement
 - Le coefficient V de Cramer est pertinent pour les tableaux plus grands que 2x2
 
-> [!TIP]
+> [!NOTE]
 Si coefficient ~0,10 alors faible association ; si coefficient ~0,30 alors association moyenne ; si coefficient >0,50 alors forte association
 
 <img width="515" height="208" alt="Biv_6" src="https://github.com/user-attachments/assets/2864926d-e1b2-4e9f-a56d-57a9dd23a122" />
