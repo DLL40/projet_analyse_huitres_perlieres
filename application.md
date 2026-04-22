@@ -406,7 +406,7 @@ Le test t est significatif : les deux groupes proviennent probablement de deux p
 
 Nous calculons donc l’intensité de la relation entre ces deux variables : 
 
-$$Eta-carré = \sqrt{\frac{(−9.487)²}{(−9.487)²+(590+310−2)} = 0,09$$ 
+$$Eta-carré = \sqrt{\frac{(−9.487)²}{(−9.487)²+(590+310−2)} = 0,09}$$ 
 
 ↪️L’association entre ces deux variables est significative, et est moyenne à forte => Plus l’huître est longue et moins elle est susceptible de produire une perle. 
 
