@@ -30,6 +30,8 @@ D'après notre tableau précédent, nous disposons ici de trois variables qualit
 - ZONE
 - VARIETE
 
+---
+
 Ainsi, sur SPSS :
 
 <img width="542" height="140" alt="SPSS_11" src="https://github.com/user-attachments/assets/ac7a790f-51c8-4be1-8c31-2460a267d3f7" />
@@ -39,6 +41,8 @@ Ainsi, sur SPSS :
 <img width="543" height="261" alt="SPSS_22" src="https://github.com/user-attachments/assets/c7dc45ec-1486-47ab-b927-10211a1bfe24" />
 
 <br>
+
+---
 
 Pour les différentes variables qualitatives nous obtenons les graphiques suivants :
 
@@ -79,6 +83,8 @@ Nous avons ici quatre variables quantitatives :
 - EPAISSEUR
 - POIDS
 
+---
+
 Sur SPSS, nous procédons aux différentes analyses :
 
 <img width="521" height="173" alt="SPSS_1" src="https://github.com/user-attachments/assets/7f1719e3-c9e5-42f9-a10f-9a20db696c29" />
@@ -92,6 +98,8 @@ Sur SPSS, nous procédons aux différentes analyses :
 <img width="611" height="402" alt="SPSS_3" src="https://github.com/user-attachments/assets/a1aaee37-31ad-41c9-91e9-2f190d243e9e" />
 
 <br>
+
+---
 
 Pour les variables quantitatives, nous obtenons les résultats suivants :
 
@@ -166,7 +174,9 @@ d) POIDS
 - La distribution est étalée vers la gauche ; asymétrie à gauche (coefficient d’asymétrie = 0,687)
 - 50% des observations ont un poids compris entre 71 g et 99 g
 
-### Conclusion Statistiques Univariées 
+---
+
+### Conclusion Statistiques univariées 
 
 ▶️Variables qualitatives : 
 - Les huîtres ne produisant pas de perle représentent **66% des huîtres greffées**
@@ -179,6 +189,8 @@ d) POIDS
 - 2 valeurs aberrantes pour LONGUEUR, qui ont été **considérées comme manquantes** => après suppression de ces données, les huîtres ont une **longueur moyenne de 9,7 cm (médiane = 9,2)**  
 - 20 valeurs manquantes pour POIDS
 - Les huîtres ont un **poids moyen de 102 g** au moment de la greffe (médiane = 99)
+
+---
 
 ### 3.  Statistiques bivariées : repérer des relations fortes entre deux variables, trouver des solutions pour les valeurs manquantes
 
@@ -224,6 +236,8 @@ a) Croisements de deux variables quantitatives : corrélations (matrice de dispe
 
 Etape 1 : analyse visuelle avec la matrice de dispersion
 
+---
+
 Sur SPSS, pour obtenir la matrice de dispersion, nous suivons les étapes ci-dessous
 
 <img width="598" height="456" alt="Biv_1" src="https://github.com/user-attachments/assets/f4472e96-4eaf-4c3b-a642-3c9466f92a3b" />
@@ -235,6 +249,8 @@ Sur SPSS, pour obtenir la matrice de dispersion, nous suivons les étapes ci-des
 <br>
 
 En cliquant sur "Dispersion de type matrice" nous pouvons insérer toutes les variables quantitatives
+
+---
 
 Nous obtenons alors la matrice de dispersion suivantes :
 
@@ -250,11 +266,15 @@ Ainsi, graphiquement, nous constatons :
 
 Etape 2 : test de la significativité de la relation
 
+---
+
 Nous pouvons quantifier l’intensité des relations par le coefficient de corrélation de Bravais-Pearson :
 
 <img width="553" height="296" alt="Biv_3" src="https://github.com/user-attachments/assets/3d25cc4d-fb9d-4a55-a836-95e31c021e1a" />
 
 <br>
+
+---
 
 <img width="541" height="320" alt="QTQT_2" src="https://github.com/user-attachments/assets/5bf16d6f-ded9-4ff2-a82a-d06155ffe72b" />
 
@@ -267,6 +287,8 @@ LONGUEUR. **Nous allons donc supprimer la variable POIDS de notre modèle**. Ain
 d’analyse bivariée sur cette variable. 
 
 b) Croisements de deux variables qualitatives : Test du Khi-deux d’indépendance et Coefficients d’association (Phi et V de Cramer)
+
+---
 
 Toujours sur SPSS, en suivant la procédure ci-dessous : 
 
@@ -289,6 +311,8 @@ Si coefficient ~0,10 alors faible association ; si coefficient ~0,30 alors assoc
 
 <br>
 
+---
+
 ZONE*VARIETE : Analyse d'une possible relation entre la zone d’élevage et la variété de l’huître
 
 <img width="362" height="290" alt="QLQL_ZV_1" src="https://github.com/user-attachments/assets/b748d3b8-4b6b-457e-97d1-365ce75cd876" />
@@ -306,6 +330,8 @@ Cette analyse est confirmée par le test de la relation entre ces deux variables
 
 c) Croisements variables qualitatives (à 2 modalités) et quantitatives : Analyse graphique (boxplot) et/ou test
 t pour échantillons indépendants
+
+---
 
 Procédure SPSS : 
 
@@ -328,6 +354,8 @@ avec N1 et N2, la taille de chaque groupe.
 > [!NOTE]
 Si coefficient ~0,01 alors faible association ; si coefficient ~0,06 alors association moyenne ; si coefficient ~0,14 
 et plus, alors forte association
+
+---
 
 VARIETE*LONGUEUR
 
@@ -418,6 +446,8 @@ ANOVA à 1 facteur
 > [!NOTE]
 Pour l’ANOVA à 1 facteur, la variable qualitative doit être recodée en numérique
 
+---
+
 Procédure SPSS pour recoder une variable
 
 <img width="562" height="215" alt="Biv_9" src="https://github.com/user-attachments/assets/6c52292e-3c2a-4a1e-b34b-8754284d3f14" />
@@ -455,6 +485,8 @@ $$r = \sqrt{\frac{\text{Somme des carrés intergroupes}}{\text{Somme totale des 
 > [!NOTE]
 Si coefficient ~0,10 alors faible association ; si coefficient ~0,30 alors association moyenne ; si coefficient >0,50 
 alors forte association
+
+---
 
  ZONE*PROFONDEUR 
 
@@ -567,27 +599,31 @@ Au final, les modèles que nous proposons afin de prédire le succès de la gref
 - **Modèle 1 :** SUCCES = PROFONDEUR + LONGUEUR + EPAISSEUR 
 - **Modèle 2 :** SUCCES = ZONE + LONGUEUR + EPAISSEUR
 
-### Conclusion Statistiques Bivariées 
+---
 
-Cette analyse nous a permis de détecter :  
+### Conclusion Statistiques bivariées 
+
+▶️Cette analyse nous a permis de détecter :  
 
 - 20 valeurs manquantes pour la variable POIDS 
 - 2 valeurs aberrantes pour la variable LONGUEUR (Huîtres N°069 et N°392)
 
-et de constater une relation forte entre :
+▶️et de constater une relation forte entre :
 
 - le poids et la longueur d’une huître 
 - la variété de l’huître et sa longueur => les huîtres N°069 et N°392 étant des huîtres de variété B, nous leur avons imputé la valeur de 10 cm pour la longueur
 - la zone et la profondeur d’élevage de l’huître greffée
  
-Par conséquent, les variables que nous rejetons pour expliquer la présence d’une perle sont : 
+▶️Par conséquent, les variables que nous rejetons pour expliquer la présence d’une perle sont : 
 - le poids de l’huître => relation forte avec sa longueur + 20 valeurs manquantes
 - la variété de l’huître => relation forte avec sa longueur + explique moins bien la présence d’une perle que la longueur de l’huître
  
-Finalement, les modèles que nous retenons pour expliquer la présence d’une perle commercialisable 18 mois après la greffe d’une huître sont les suivants : 
+▶️Finalement, les modèles que nous retenons pour expliquer la présence d’une perle commercialisable 18 mois après la greffe d’une huître sont les suivants : 
 
 - **Modèle 1 :** SUCCES =  PROFONDEUR + LONGUEUR + EPAISSEUR  
 - **Modèle 2 :** SUCCES =  ZONE + LONGUEUR + EPAISSEUR
+
+---
 
 
 
