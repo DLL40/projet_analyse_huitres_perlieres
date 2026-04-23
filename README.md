@@ -1,5 +1,9 @@
 # Etude de cas : Analyse huîtres perlières
 
+<img width="425" height="380" alt="Bateau_peche" src="https://github.com/user-attachments/assets/f7f35652-a31e-4476-84e3-5ba233a461c6" />
+
+<br>
+
 ### Contexte :
 
 L’entreprise d’aquaculture **Pacific Fisher** envisage de se lancer dans la production d’huîtres perlières. Les huitres sont élevées en milieu naturel **entre 5 et 10m de profondeur**, puis au bout d’un an environ, on introduit dans l’huitre un petit greffon de nacre qui permettra à la perle de se développer. Après la greffe, les huitres sont remises en élevage pour la durée nécessaire à la croissance de la perle, de l'ordre de 18 mois. Cependant **moins de 30% des huitres greffées forment une perle commercialisable**. 
