@@ -1,6 +1,8 @@
 # Etude de cas : Analyse huîtres perlières
 
+<p align="center">
 <img width="425" height="380" alt="Bateau_peche" src="https://github.com/user-attachments/assets/f7f35652-a31e-4476-84e3-5ba233a461c6" />
+<p/>
 
 <br>
 
